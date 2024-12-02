@@ -1,0 +1,57 @@
+HTML Structure:
+
+Create a Bootstrap 5 navbar with the following structure:
+
+Navbar:
+
+Navbar Brand: (Optional: Your institution's logo or name)
+Navbar Nav:
+Nav Item: Academics
+Dropdown Menu:
+Dropdown Item: Curriculum
+Dropdown Item: Regulations
+Dropdown Submenu:
+Submenu Item: PVP20
+Submenu Item: PVP23
+Dropdown Item: Academic Calendar
+Dropdown Submenu:
+Submenu Item: II
+Submenu Item: III
+Submenu Item: IV
+Dropdown Item: BOS
+Dropdown Item: Holidays
+Nav Item: Faculty
+Dropdown Menu:
+Dropdown Item: Teaching Staff
+Dropdown Item: Non-Teaching Staff
+Dropdown Item: Achievements
+Nav Item: Research
+Dropdown Menu:
+Dropdown Item: Journals
+Dropdown Item: Publications
+Dropdown Item: Projects
+Dropdown Item: Patents
+Nav Item: Students
+Dropdown Menu:
+Dropdown Item: Time Tables
+Dropdown Item: Question Papers
+Dropdown Item: Mentoring List
+Dropdown Item: Publications
+Dropdown Item: Projects/Chapters
+Dropdown Item: Higher Studies
+Dropdown Item: Activities
+Nav Item: Certifications (Link)
+Nav Item: Internships (Link)
+Nav Item: Results (Link)
+Nav Item: Media
+Dropdown Menu:
+Dropdown Item: Facebook (Link)
+Dropdown Item: Instagram (Link)
+Nav Item: Gallery (Link)
+Nav Item: Events (Link)
+CSS Styling:
+
+Navbar Background: #7673CC
+Font: Open Sans
+Font Color: Black
+Equal Spacing: Use Bootstrap's spacing utilities to ensure equal spacing between nav items.

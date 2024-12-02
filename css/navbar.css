@@ -47,7 +47,7 @@ body {
 }
 /* Increase space between navbar links */
 .navbar-nav .nav-item {
-  margin-right: 20px;
+  margin-right: 10px;
   /* Adjust this value to increase or decrease the spacing */
 }
 
@@ -55,4 +55,9 @@ body {
 .navbar-nav .nav-link {
   padding-left: 10px;
   padding-right: 10px;
+}
+@media (max-width: 768px) {
+  .navbar-nav .nav-item {
+    margin-right: 10px; /* Reduced space for mobile screens */
+  }
 }
