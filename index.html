@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,122 +10,195 @@
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 
   <title>CSE(DS)</title>
-  
-  <link rel="stylesheet" href="/css/navbar.css" >
- 
+
+  <link rel="stylesheet" href="/css/navbar.css">
+  <link rel="stylesheet" href="/css/index.css">
+
 </head>
+
 <body>
-  <nav class="navbar navbar-expand-lg custom-nav">
-    <div class="container-fluid">
-      <!-- Navbar Brand -->
-      <a class="navbar-brand text-black" href="https://www.pvpsiddhartha.ac.in/">PVPSIT</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <!-- Academics -->
-          <li class="nav-item ml-3 dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="academicsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Academics
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Curriculum</a></li>
-              <li class="dropdown-submenu">
-                <a class="dropdown-item dropdown-toggle" href="#">Regulations</a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="/pdfs/regulations/academic_regulations_20.pdf">PVP20</a></li>
-                  <li><a class="dropdown-item" href="#">PVP23</a></li>
-                </ul>
-              </li>
-              <li class="dropdown-submenu">
-                <a class="dropdown-item dropdown-toggle" href="#">Academic Calendar</a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="/pdfs/Academic_Calendars/PVP23_IIB.Tech-AC-2024-25.pdf">II Year</a></li>
-                  <li><a class="dropdown-item" href="/pdfs/Academic_Calendars/PVP20_IIIB.Tech-AC-2024-25.pdf">III Year</a></li>
-                  <li><a class="dropdown-item" href="#">IV Year</a></li>
-                </ul>
-              </li>
-              <li><a class="dropdown-item" href="#">BOS</a></li>
-              <li><a class="dropdown-item" href="#">Holidays</a></li>
-            </ul>
-          </li>
-
-          <!-- Faculty -->
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="facultyDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Faculty
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Teaching Staff</a></li>
-              <li><a class="dropdown-item" href="#">Non-Teaching Staff</a></li>
-              <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="#">Achievements</a></li>
-            </ul>
-          </li>
-
-          <!-- Research -->
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="researchDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Research
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Journals</a></li>
-              <li><a class="dropdown-item" href="#">Publications</a></li>
-              <li><a class="dropdown-item" href="#">Projects</a></li>
-              <li><a class="dropdown-item" href="#">Patents</a></li>
-            </ul>
-          </li>
-
-          <!-- Students -->
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="studentsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Students
-            </a>
-            <ul class="dropdown-menu">
+  <section class="navSection">
+    <nav class="navbar navbar-expand-lg custom-nav">
+      <div class="container-fluid">
+        <!-- Navbar Brand -->
+        <a class="navbar-brand text-black" href="https://www.pvpsiddhartha.ac.in/">PVPSIT</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <!-- Academics -->
+            <li class="nav-item ml-3 dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="academicsDropdown" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Academics
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Curriculum</a></li>
                 <li class="dropdown-submenu">
-                    <a class="dropdown-item dropdown-toggle" href="#">Time Tables</a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">II Year</a></li>
-                      <li><a class="dropdown-item" href="#">III Year</a></li>
-                      <li><a class="dropdown-item" href="#">IV Year</a></li>
-                    </ul>
-                  </li>
-              <li><a class="dropdown-item" href="#">Question Papers</a></li>
-              <li><a class="dropdown-item" href="#">Mentoring List</a></li>
-              <li><a class="dropdown-item" href="#">Publications</a></li>
-              <li><a class="dropdown-item" href="#">Projects/Chapters</a></li>
-              <li><a class="dropdown-item" href="#">Activities</a></li>
-              <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="#">Higher Studies</a></li>
-            </ul>
-          </li>
+                  <a class="dropdown-item dropdown-toggle" href="#">Regulations</a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="/pdfs/regulations/academic_regulations_20.pdf">PVP20</a></li>
+                    <li><a class="dropdown-item" href="#">PVP23</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown-submenu">
+                  <a class="dropdown-item dropdown-toggle" href="#">Academic Calendar</a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="/pdfs/Academic_Calendars/PVP23_IIB.Tech-AC-2024-25.pdf">II
+                        Year</a></li>
+                    <li><a class="dropdown-item" href="/pdfs/Academic_Calendars/PVP20_IIIB.Tech-AC-2024-25.pdf">III
+                        Year</a></li>
+                    <li><a class="dropdown-item" href="#">IV Year</a></li>
+                  </ul>
+                </li>
+                <li><a class="dropdown-item" href="#">BOS</a></li>
+                <li><a class="dropdown-item" href="#">Holidays</a></li>
+              </ul>
+            </li>
 
-          <!-- Other Links -->
-          <li class="nav-item"><a class="nav-link" href="#">Certifications</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Internships</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Results</a></li>
+            <!-- Faculty -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="facultyDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Faculty
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Teaching Staff</a></li>
+                <li><a class="dropdown-item" href="#">Non-Teaching Staff</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Achievements</a></li>
+              </ul>
+            </li>
 
-          <!-- Media -->
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="mediaDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Media
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Facebook</a></li>
-              <li><a class="dropdown-item" href="#">Instagram</a></li>
-            </ul>
-          </li>
+            <!-- Research -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="researchDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Research
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Journals</a></li>
+                <li><a class="dropdown-item" href="#">Publications</a></li>
+                <li><a class="dropdown-item" href="#">Projects</a></li>
+                <li><a class="dropdown-item" href="#">Patents</a></li>
+              </ul>
+            </li>
 
-          <li class="nav-item"><a class="nav-link" href="#">Gallery</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Events</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">About</a></li>
-        </ul>
+            <!-- Students -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="studentsDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Students
+              </a>
+              <ul class="dropdown-menu">
+                <li class="dropdown-submenu">
+                  <a class="dropdown-item dropdown-toggle" href="#">Time Tables</a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">II Year</a></li>
+                    <li><a class="dropdown-item" href="#">III Year</a></li>
+                    <li><a class="dropdown-item" href="#">IV Year</a></li>
+                  </ul>
+                </li>
+                <li><a class="dropdown-item" href="#">Question Papers</a></li>
+                <li><a class="dropdown-item" href="#">Mentoring List</a></li>
+                <li><a class="dropdown-item" href="#">Publications</a></li>
+                <li><a class="dropdown-item" href="#">Projects/Chapters</a></li>
+                <li><a class="dropdown-item" href="#">Activities</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Higher Studies</a></li>
+              </ul>
+            </li>
+
+            <!-- Other Links -->
+            <li class="nav-item"><a class="nav-link" href="#">Certifications</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Internships</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Results</a></li>
+
+            <!-- Media -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="mediaDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Media
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Facebook</a></li>
+                <li><a class="dropdown-item" href="#">Instagram</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item"><a class="nav-link" href="#">Gallery</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Events</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </section>
+  <section class="marqueeSection">
+    <div class="marquee-container">
+      <marquee behavior="scroll" direction="left">
+        🔔 New Update Available!
+        <a href="#" target="_blank">Click here to view the full details.</a>
+      </marquee>
+  </section>
+
+  <div class="container-fluid">
+    <div class="row">
+      <!-- First Partition (75%) -->
+      <div class="col-md-8">
+        <div class="container mt-4" style="max-width: 1280px;">
+          <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item slide1 active">
+              </div>
+              <div class="carousel-item slide2">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Second Partition (25%) -->
+      <div class="col-md-4">
+        <div class="notification-container">      
+          <h5 class="text">Notifications</h5>
+          <ul class="notification-list">
+            
+            <li> <a href="#">Notification 1</a></li>
+            <li> Notification 2</li>
+            <li> Notification 3</li>
+            <li> Notification 4</li>
+            <li> Notification 5</li>
+            <li> Notification 6</li>
+          </ul>
+        </div>
       </div>
     </div>
-  </nav>
-
-  
+  </div>
+  </div>
 </body>
+
 </html>

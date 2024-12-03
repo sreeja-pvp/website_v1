@@ -2,6 +2,8 @@ HTML Structure:
 
 Create a Bootstrap 5 navbar with the following structure:
 
+-----------------------------------------------------------------------------------------------------------------------------
+
 Navbar:
 
 Navbar Brand: (Optional: Your institution's logo or name)
