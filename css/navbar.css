@@ -4,7 +4,7 @@ body {
 }
 
  .navbar {
-  background-color: #7673CC;
+  background-color: rgb(1, 102, 1);
 }
 
 .navbar-nav {
@@ -42,7 +42,7 @@ body {
   display: block;
 }
 .dropdown-item:hover {
-  background-color: #7f80b6 !important;
+  background-color: rgb(1, 102, 1); !important;
   color: white;
 }
 /* Increase space between navbar links */
