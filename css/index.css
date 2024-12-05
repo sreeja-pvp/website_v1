@@ -9,11 +9,11 @@ body{
     font-family: Arial, sans-serif;
     font-size: 16px;
 }
-a {             /* marquee tag*/
+.marquee-container a {             /* marquee tag*/
     color: white;
     text-decoration: underline;
 }
-a:hover {        /* marquee tag*/
+.marquee-container a:hover {        /* marquee tag*/
     color: yellow;
 }
 
