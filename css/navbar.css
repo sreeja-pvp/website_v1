@@ -4,7 +4,7 @@ body {
 }
 
  .navbar {
-  background-color: rgb(1, 102, 1);
+  background-color:rgb(24, 68, 107);
 }
 
 .navbar-nav {
@@ -47,7 +47,7 @@ body {
   display: block;
 }
 .dropdown-item:hover {
-  background-color: rgb(1, 102, 1); /*!important;*/
+  background-color: rgb(24, 68, 107); /*!important;*/
   color: white;
   text-decoration: none;
 }
