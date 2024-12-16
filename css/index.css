@@ -19,7 +19,7 @@ body{
 
  /* Carousel height */
  .carousel-item {
-    height: 550px;
+    height: 450px;
 }
 
 .carousel-item.slide1 {
@@ -32,7 +32,7 @@ body{
 
 /* Notification feed styling */
 .notification-container {
-    height: 550px;
+    height: 450px;
     overflow: hidden;
     background-color: #f8f9fa;
     padding: 1rem;
